@@ -53,8 +53,8 @@ header {
     flex-direction: row;    
     justify-content: center;
     align-items: center;
-    background-color:rgb(235, 174, 235);
-    color:#2e2f4e;
+    background: rgb(235,174,235);
+    background: linear-gradient(90deg, rgba(235,174,235,1) 13%, rgba(235,196,235,1) 42%, rgba(235,205,235,1) 58%, rgba(238,225,238,1) 100%);
     height: 120px;    
 }
 
@@ -69,7 +69,8 @@ header {
 .main-container {
     display: flex;
     flex-direction: row;
-    background-color: #ece1eb;
+    background: rgb(245,240,245);
+    background: radial-gradient(circle, rgba(245,240,245,1) 1%, rgba(239,230,239,1) 41%, rgba(236,225,235,1) 64%);
 }
 
 .section-container {
