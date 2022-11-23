@@ -91,11 +91,11 @@ header {
   display: flex;
   justify-content: center;
   margin: auto;
-  padding: 3em;
+  padding: 4.5em 1em;
 }
 
 .biography {
-  width: 50vw;
+  width: 60vw;
 }
 
 .biography figure,
@@ -129,6 +129,12 @@ aside img {
   width: 300px;
 }
 
+aside button,
+.arrow {
+  background-color: transparent;
+  color: white;
+}
+
 .right-aside {
   width: 3vw;
   background-color: #313355;
@@ -146,6 +152,11 @@ aside img {
 #button-close {
   margin-bottom: 2em;
   display: none;
+}
+
+.arrow {
+  cursor: pointer;
+  width: 30px;
 }
 
 /* Footer */
